@@ -10,7 +10,7 @@ app.use(cors())
 app.use(bodyParser.json({ extended: false }))
 
 app.get('/', (request, response) => {
-	response.send('<h1>Hello World, this is from MEME</h1>')
+	response.send('<h1>Hello World, this is from Minm</h1>')
 })
 
 app.server.listen(process.env.PORT || 3000)
