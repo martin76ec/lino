@@ -1,0 +1,23 @@
+{
+  "name": "meme",
+  "version": "1.0.0",
+  "description": "Simple MERN blog app.",
+  "main": "index.js",
+  "scripts": {
+		"dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin76ec/meme.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": " <Martin76ec, larreaamartin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martin76ec/meme/issues"
+  },
+  "homepage": "https://github.com/martin76ec/meme#readme"
+}
