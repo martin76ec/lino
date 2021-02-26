@@ -1,1 +1,1 @@
-# lino
+# Minm is Not Medium
