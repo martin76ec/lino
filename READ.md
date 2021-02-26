@@ -1,1 +1,0 @@
-# Minm is not Medium
