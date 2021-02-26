@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  node-server:
+    context: .
+    dockerfile: node-server/Dockerfile
+    volumes:
+      - "./app:/usr/bin/www"
+
