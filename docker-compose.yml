@@ -1,8 +1,10 @@
 version: "3.9"
 services:
-  node-server:
-    context: .
-    dockerfile: node-server/Dockerfile
+  node_server:
+    build:
+      context: .
+      dockerfile: node-server/Dockerfile
+    image: martin76ec/meme_node_server
     volumes:
       - "./app:/usr/bin/www"
 
