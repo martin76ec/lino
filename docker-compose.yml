@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: node-server/Dockerfile
-    image: martin76ec/meme_node_server
+    image: martin76ec/minm_node_server
     volumes:
       - "./app:/usr/bin/www"
 
